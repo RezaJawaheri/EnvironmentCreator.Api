@@ -57,18 +57,7 @@ namespace EnvironmentCreator.Api
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAll",
-                    policy =>
-                    {
-                        policy.AllowAnyOrigin()
-                              .AllowAnyHeader()
-                              .AllowAnyMethod();
-                    });
-            });
 
-           
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
@@ -81,7 +70,7 @@ namespace EnvironmentCreator.Api
 
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseCors("AllowAll");
+
             app.MapControllers();
 
             app.Run();
