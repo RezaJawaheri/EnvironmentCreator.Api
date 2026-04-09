@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EnvironmentCreator.Api.Tests/EnvironmentCreator.Api.Tests.csproj" />
+  <Project Path="EnvironmentCreator.Api/EnvironmentCreator.Api.csproj" />
+</Solution>
