@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnvironmentCreator.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b304713bd29321f4e0f85ab07441009f3ddd4625")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnvironmentCreator.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnvironmentCreator.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
